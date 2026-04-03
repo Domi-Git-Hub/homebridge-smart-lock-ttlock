@@ -2,7 +2,7 @@
   "private": false,
   "displayName": "Smart Lock TTLock Platform",
   "name": "homebridge-smart-lock-ttlock",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Use smart locks with TTLock platform on Homebridge.",
   "license": "MIT",
   "repository": {
