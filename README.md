@@ -14,11 +14,11 @@ plugin that allows you to access your Smart Lock TTLock Device(s) from HomeKit w
   <a href="https://homebridge.io">Homebridge</a>. 
 </p>
 
-[![GitHub release](https://img.shields.io/github/v/release/Domi-Git-Hub/homebridge-smart-lock-ttlock)](https://github.com/Domi-Git-Hub/homebridge-smart-lock-ttlock/releases)
-[![npm version](https://img.shields.io/npm/v/homebridge-smart-lock-ttlock)](https://www.npmjs.com/package/homebridge-smart-lock-ttlock)
-[![Node.js](https://img.shields.io/badge/node-%3E%3D20.0.0-339933)](https://nodejs.org/en/download)
-[![Homebridge](https://img.shields.io/badge/homebridge-%3E%3D1.8.0-blue)](https://homebridge.io)
-[![license](https://img.shields.io/npm/l/homebridge-smart-lock-ttlock)](LICENSE)
+	[![GitHub release](https://img.shields.io/github/v/release/Domi-Git-Hub/homebridge-smart-lock-ttlock)](https://github.com/Domi-Git-Hub/homebridge-smart-lock-ttlock/releases)
+	[![npm version](https://img.shields.io/npm/v/homebridge-smart-lock-ttlock)](https://www.npmjs.com/package/homebridge-smart-lock-ttlock)
+	[![Node.js](https://img.shields.io/badge/node-%3E%3D20.0.0-339933)](https://nodejs.org/en/download)
+	[![Homebridge](https://img.shields.io/badge/homebridge-%3E%3D1.8.0-blue)](https://homebridge.io)
+	[![license](https://img.shields.io/npm/l/homebridge-smart-lock-ttlock)](LICENSE)
 
 
 </span>
