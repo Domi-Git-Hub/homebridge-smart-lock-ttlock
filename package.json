@@ -1,0 +1,50 @@
+{
+  "private": false,
+  "displayName": "Smart Lock TTLock Platform",
+  "name": "homebridge-smart-lock-ttlock",
+  "version": "1.0.0",
+  "description": "Use smart locks with TTLock platform on Homebridge.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Domi-Git-Hub/homebridge-smart-lock-ttlock"
+  },
+  "bugs": {
+    "url": "https://github.com/Domi-Git-Hub/homebridge-smart-lock-ttlock/issues"
+  },
+  "homepage": "https://github.com/Domi-Git-Hub/homebridge-smart-lock-ttlock#readme",
+  "engines": {
+    "node": "^20 || ^22 || ^24",
+    "homebridge": ">=1.8.0 || ^2.0.0"
+  },
+  "main": "dist/index.js",
+  "files": [
+    "dist",
+    "config.schema.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "lint": "eslint \"dist/**/*.js\" --max-warnings=0",
+    "release": "release-it"
+  },
+  "keywords": [
+    "homebridge-plugin",
+    "TTLock",
+    "smart lock",
+    "lock"
+  ],
+  "dependencies": {
+    "axios": "^0.27.2",
+    "qs": "^6.11.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.1.0",
+    "globals": "^17.4.0",
+    "release-it": "^19.2.4"
+  },
+  "overrides": {
+    "undici": "6.24.0"
+  }
+}

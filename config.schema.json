@@ -1,0 +1,119 @@
+{
+  "pluginAlias": "smart-lock-ttlock",
+  "pluginType": "platform",
+  "headerDisplay": "TTLock Platform. You can configure your client, user credentials and optional visibility filters below.",
+  "footerDisplay": "Use hideLocks to hide one or more locks. You can enter a lock alias, lock ID, lock name or MAC address. Separate multiple values with commas, semicolons or line breaks.",
+  "schema": {
+    "type": "object",
+    "properties": {
+      "name": {
+        "title": "Name",
+        "type": "string",
+        "required": true,
+        "default": "TTLock Platform"
+      },
+      "username": {
+        "title": "TTLock Username",
+        "type": "string",
+        "required": true,
+        "description": "TTLock app account username."
+      },
+      "password": {
+        "title": "TTLock Password (MD5)",
+        "type": "string",
+        "required": true,
+        "description": "MD5 hash of your TTLock account password."
+      },
+      "clientid": {
+        "title": "Client ID",
+        "type": "string",
+        "required": true,
+        "description": "TTLock Open Platform clientId."
+      },
+      "clientsecret": {
+        "title": "Client Secret",
+        "type": "string",
+        "required": true,
+        "description": "TTLock Open Platform clientSecret."
+      },
+      "batteryLowLevel": {
+        "title": "Low battery threshold (%)",
+        "type": "integer",
+        "required": true,
+        "default": 15,
+        "minimum": 1,
+        "maximum": 100,
+        "description": "Battery percentage at or below which HomeKit shows a low battery warning."
+      },
+      "maximumApiRetry": {
+        "title": "Maximum API retries",
+        "type": "integer",
+        "required": true,
+        "default": 2,
+        "minimum": 1,
+        "maximum": 10,
+        "description": "Maximum number of attempts per TTLock API request."
+      },
+      "requestTimeoutMs": {
+        "title": "Request timeout (ms)",
+        "type": "integer",
+        "required": true,
+        "default": 7000,
+        "minimum": 1000,
+        "maximum": 60000,
+        "description": "HTTP timeout for TTLock API requests."
+      },
+      "apiRetryIntervalMs": {
+        "title": "Delay between retries (ms)",
+        "type": "integer",
+        "required": true,
+        "default": 500,
+        "minimum": 0,
+        "maximum": 10000,
+        "description": "Delay between TTLock network retry attempts."
+      },
+      "postActionRefreshDelayMs": {
+        "title": "Refresh delay after lock/unlock (ms)",
+        "type": "integer",
+        "required": true,
+        "default": 1500,
+        "minimum": 0,
+        "maximum": 30000,
+        "description": "Delay before the second API request that re-reads the real lock state after a lock or unlock command."
+      },
+      "hideLocks": {
+        "title": "Hide locks",
+        "type": "string",
+        "default": "",
+        "description": "Optional hide list. Use lock alias, lock ID, lock name or MAC address. Separate multiple values with commas, semicolons or line breaks."
+      }
+    }
+  },
+  "form": [
+    "name",
+    "username",
+    "password",
+    "clientid",
+    "clientsecret",
+    {
+      "type": "fieldset",
+      "expandable": true,
+      "title": "Accessory Visibility",
+      "items": [
+        "hideLocks"
+      ]
+    },
+    {
+      "type": "fieldset",
+      "expandable": true,
+      "title": "Advanced Settings",
+      "items": [
+        "batteryLowLevel",
+        "maximumApiRetry",
+        "requestTimeoutMs",
+        "apiRetryIntervalMs",
+        "postActionRefreshDelayMs"
+      ]
+    }
+  ]
+}
