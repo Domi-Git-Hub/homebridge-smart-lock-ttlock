@@ -10,7 +10,7 @@
         "title": "Name",
         "type": "string",
         "required": true,
-        "default": "TTLock Platform"
+        "default": "Smart Lock TTLock Platform"
       },
       "username": {
         "title": "TTLock Username",
@@ -76,7 +76,7 @@
         "title": "Refresh delay after lock/unlock (ms)",
         "type": "integer",
         "required": true,
-        "default": 1500,
+        "default": 2900,
         "minimum": 0,
         "maximum": 30000,
         "description": "Delay before the second API request that re-reads the real lock state after a lock or unlock command."

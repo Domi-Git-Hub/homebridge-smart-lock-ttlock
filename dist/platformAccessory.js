@@ -229,4 +229,3 @@ class TTlockPlatformAccessory {
     }
 }
 exports.TTlockPlatformAccessory = TTlockPlatformAccessory;
-//# sourceMappingURL=platformAccessory.js.map
