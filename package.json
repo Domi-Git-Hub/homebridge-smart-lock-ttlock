@@ -7,7 +7,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/Domi-Git-Hub/homebridge-smart-lock-ttlock"
+    "url": "git://github.com/Domi-Git-Hub/homebridge-smart-lock-ttlock.git"
   },
   "bugs": {
     "url": "https://github.com/Domi-Git-Hub/homebridge-smart-lock-ttlock/issues"
