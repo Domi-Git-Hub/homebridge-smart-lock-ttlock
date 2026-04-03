@@ -18,7 +18,7 @@ plugin that allows you to access your Smart Lock TTLock Device(s) from HomeKit w
 [![npm version](https://img.shields.io/npm/v/homebridge-smart-lock-ttlock)](https://www.npmjs.com/package/homebridge-smart-lock-ttlock) 
 [![Node.js](https://img.shields.io/badge/node-%3E%3D20.0.0-339933)](https://nodejs.org/en/download) 
 [![Homebridge](https://img.shields.io/badge/homebridge-%3E%3D1.8.0-blue)](https://homebridge.io) 
-[![npm license](https://img.shields.io/npm/l/homebridge-smart-lock-ttlock)](https://www.npmjs.com/package/homebridge-smart-lock-ttlock)
+[![License](https://img.shields.io/github/license/Domi-Git-Hub/homebridge-smart-lock-ttlock)](https://github.com/Domi-Git-Hub/homebridge-smart-lock-ttlock/blob/main/LICENSE)
 
 
 </span>
